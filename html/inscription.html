@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Liaison vers la feuille de style externe et icône du site -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="../images/logo.png" type="image/png">
+
+    <!-- Titre de la page -->
+    <title>Inscrivez-vous - POWER FITNESS</title>
+</head>
+<body class="form">
+     <!-- En-tête de la page -->
+    <header>
+        <h1>Inscrivez-vous à POWER FITNESS</h1>
+          <!-- Navigation -->
+        <nav>
+            <ul>
+                <!-- Liens de navigation vers différentes pages -->
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="tarifs.html">Tarifs</a></li>
+                <li><a href="inscription.html">Inscription</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Formulaire d'inscription -->
+    <section>
+        <h2>Formulaire d'inscription</h2>
+        <form>
+            <div class="form-group">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="email">E-mail :</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="telephone">Téléphone :</label>
+                <input type="tel" id="telephone" name="telephone" required>
+            </div>
+    
+            <div>
+                <label for="date_naissance">Date de naissance</label>
+                <input type="date" id="date_naissance" name="date_naissance" required>
+            </div>
+         
+            <div class="form-group">
+                <label for="abonnement">Type d'adhésion :</label>
+                <!-- Sélection du type d'adhésion -->
+                <select id="abonnement" name="abonnement">
+                    <option value="bronze">Forfait Bronze</option>
+                    <option value="argent">Forfait Argent</option>
+                    <option value="or">Forfait Or</option>
+                </select>
+            </div>
+    
+            <div class="form-group">
+                <!-- Bouton de soumission du formulaire -->
+                <input type="submit" value="S'inscrire">
+            </div>
+        </form>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <!-- Copyright et informations sur les créateurs -->
+        <p>&copy; 2023 POWER FITNESS. Tous droits réservés.</p>
+        <p>Créé par Boudiaf Mehdi et Metabteb Abd essalam</p>
+        <p>Date de création : Novembre 2023 </p>
+        <!-- Lien vers le dépôt GitHub -->
+        <a href="https://github.com/mehdibdf3/Power_Fitness_Projet_Web.git">GitHub : Projet Power Fitness sur GitHub</a>
+    </footer>
+</body>
+</html>
