@@ -1,0 +1,138 @@
+/* Réinitialisation des marges et paddings pour certains éléments HTML de base */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, form, label, input, textarea {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+/* Styles spécifiques pour les différentes pages */
+body.accueil, 
+body.page-entrainement-personnel,
+body.page-cours-de-groupe,
+body.seance-libre,
+body.about,
+body.service,
+body.contact,
+body.tarifs,
+body.form {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+body.accueil {
+    background-image: url(../images/img1.jpg);
+}
+
+body.page-entrainement-personnel {
+    background-image: url(../images/img3.jpg);
+}
+
+body.page-cours-de-groupe {
+    background-image: url(../images/img2.jpg);
+}
+
+body.seance-libre {
+    background-image: url(../images/img4.jpg);
+}
+
+body.about {
+    background-image: url(../images/img5.jpg);
+}
+
+body.service {
+    background-image: url(../images/img6.jpg);
+}
+
+body.contact {
+    background-image: url(../images/img1.jpg);
+}
+
+body.tarifs,
+body.form {
+    background-image: url(../images/img1.jpg);
+}
+
+/* Styles pour les sections communes */
+header, footer, section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Styles pour la navigation */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Styles pour les liens */
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #d35400;
+}
+
+/* Style du bouton d'inscription */
+.inscription {
+    display: inline-block;
+    background: #d35400;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.inscription:hover {
+    color: #fff;
+}
+
+/* Styles pour la section des services */
+.services-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Styles pour les éléments individuels des services */
+.service-item {
+    flex-basis: calc(33.33% - 20px); 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styles pour les images à l'intérieur des éléments de service */
+.service-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style du pied de page  */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    font-size: 10px; 
+}
